@@ -1,25 +1,18 @@
 [
   {
-    "name": "asd",
-    "phone": "9074827194",
-    "service": "dddd",
-    "time": "22:14",
-    "date": "2024-12-19",
-    "notes": "fffff"
+    "name": "g",
+    "phone": "g",
+    "service": "gnnnn",
+    "time": "23:04",
+    "date": "2024-12-12",
+    "notes": "hhkllllmmmmmffff"
   },
   {
-    "name": "asd",
-    "phone": "9074827194",
-    "service": "dddd",
-    "time": "22:14",
-    "date": "2024-12-19",
-    "notes": "fffff"
-  },
-  {
-    "name": "John Doe",
-    "service": "Haircut",
-    "time": "10:00",
-    "date": "2024-12-06",
-    "notes": ""
+    "name": "g",
+    "phone": "g",
+    "service": "gnnnn",
+    "time": "23:04",
+    "date": "2024-12-12",
+    "notes": "hhkllllmmmmmffffgg"
   }
 ]

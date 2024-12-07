@@ -8,9 +8,9 @@ const saveAppointmentsToFile = (appointments) => {
     }
     
     
-    const existingAppointments = JSON.parse(fs.readFileSync(APPOINTMENT_FILE, 'utf-8'));
+    // const existingAppointments = JSON.parse(fs.readFileSync(APPOINTMENT_FILE, 'utf-8'));
 
-    const updatedAppointments = [...existingAppointments, ...appointments];
+    const updatedAppointments = [ ...appointments];
 
     fs.writeFileSync(APPOINTMENT_FILE, JSON.stringify(updatedAppointments, null, 2), 'utf-8');
 };

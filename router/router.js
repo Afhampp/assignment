@@ -19,7 +19,6 @@ router.get('/', (req, res) => {
 router.post('/submit-booking', (req, res) => {
     const { name, phone, service, time, date, notes } = req.body;
     const newAppointment = { name, phone, service, time, date, notes };
-
     appointments.push(newAppointment);
 
     saveAppointmentsToFile(appointments);
