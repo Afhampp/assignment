@@ -17,9 +17,7 @@ router.get('/', (req, res) => {
 });
 
 router.post('/submit-booking', (req, res) => {
-    console.log("hai")
     const { name, phone, service, time, date, notes } = req.body;
-    console.log(req.body)
     const newAppointment = { name, phone, service, time, date, notes };
 
     appointments.push(newAppointment);
